@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TesteComponent } from './teste/teste.component';
-import { Teste2Component } from './teste2/teste2.component';
+import { MuralVagasComponent } from './mural-vagas/mural-vagas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TesteComponent,
-    Teste2Component
+    MuralVagasComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
