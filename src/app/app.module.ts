@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import { MuralVagasComponent } from './mural-vagas/mural-vagas.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { PainelVagasComponent } from './painel-vagas/painel-vagas.component';
+import { SobreComponent } from './sobre/sobre.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { RodapeComponent } from './rodape/rodape.component';
     AppComponent,
     MuralVagasComponent,
     MenuComponent,
-    RodapeComponent
+    RodapeComponent,
+    PainelVagasComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,

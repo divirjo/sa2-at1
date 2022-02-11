@@ -1,0 +1,53 @@
+<h2>Cadastrar</h2>
+<form>
+    <div class="form-row ">
+        <div class="form-group col-md-6">
+            <label>Id</label>
+        </div>
+        <div class="form-group col-md-6">
+            <input type="text" name="id" [(ngModel)] = "vaga.id">  
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Nome</label>
+        </div>
+        <div class="form-group col-md-6">
+            <input type="text" name="nome" [(ngModel)] = "vaga.nome">
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Foto</label>
+        </div>
+        <div class="form-group col-md-6">
+            <input type="text" name="foto" [(ngModel)] = "vaga.foto">
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Descrição</label>
+        </div>
+        <div class="form-group col-md-6">
+            <input type="text" name="descricao" [(ngModel)] = "vaga.descricao">
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Salário</label>
+        </div>
+        <div class="form-group col-md-6">
+            <input type="text" name="salario" [(ngModel)] = "vaga.salario">
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6"></div>
+        <button type="button" class="btn btn-outline-secondary" (click)="cadastrar()">Cadastrar Vaga</button>
+        <button type="button" class="btn btn-outline-info" (click)="atualizar(vaga.id)">Atualizar Vaga</button>
+        <button type="button" class="btn btn-outline-danger" (click)="excluir(vaga.id)">Excluir Vaga</button>
+    </div>
+</form>

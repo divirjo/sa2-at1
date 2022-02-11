@@ -1,12 +1,20 @@
-<nav class="nav">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" routerLink="#">Trabalhe Conosco</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="/mural">Mural de Vagas</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="/painel">Cadastro Vagas</a>
-    </li>
-
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" routerLink="/mural"><img src="favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="">
+    Trabalhe conosco</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/mural">Mural de Vagas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/painel">Cadastro Vagas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/sobre">Sobre</a>
+      </li>
+    </ul>
+  </div>
 </nav>
